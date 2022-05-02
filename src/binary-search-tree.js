@@ -94,7 +94,6 @@ class BinarySearchTree {
         }
         node.data = rightMin.data;
         node.right = removeNode(node.right, rightMin.data);
-
         return node;
       }
     }
